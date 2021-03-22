@@ -10,6 +10,7 @@ Looping through the data, we wrote a code to return the information we needed. C
 This code could likely be used for any election without too many changes to the base code. 
 
 Because the code was built using variables, the type of information wouldn't matter, as long as the structure was similar. For example, if you were tabulating votes for people's choice awards instead of elections, you could have this code find the winner by only changing the csv file and the wording of the printed results. The printed results are easy to find and replace for a new data set. 
+
 ![printed results](https://user-images.githubusercontent.com/78869891/111928408-e316b180-8a89-11eb-8bba-750388088ba3.png)
 
 And even if the dataset was arranged a little differently, we could replace our csv query with a new number to return data from a different column. 
